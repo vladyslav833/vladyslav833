@@ -7,10 +7,11 @@
 
 <img align="right" width="400" src="https://camo.githubusercontent.com/fa73289736064aba480d0708da37d7aa183a8c3e2bcc2f58c54285a3bbbeecc1/68747470733a2f2f7777772e61616c7068612e6e65742f77702d636f6e74656e742f75706c6f6164732f323032302f31322f66756c6c2d737461636b2d646576656c6f706d656e742e676966" />
   <p>
-  Experienced Web Developer adept in all stages of advanced web development with 8+ years experience building smart websites and 5+ years working with Blockchain 
-  technologies. Quickly learn and master new technologies and working in both team and self-directed settings. Adept at contributing to a highly collaborative work 
-  environment, finding solutions, and determining customer satisfaction. As a problem solver, I always strive to deliver good value to clients and works very well with 
-  team members.
+With over 8 years of experience in advanced web development, I excel at all stages of the process, including building intelligent websites.
+I have a proven ability to quickly grasp and become proficient in new technologies.
+Whether working in a team or independently, I am adept at collaborating in a highly cooperative work environment, finding effective solutions, and ensuring customer satisfaction.
+As a dedicated problem solver, my priority is always to provide excellent value to clients and foster strong teamwork.
+My area of expertise lies in developing robust systems and websites using the JavaScript, PHP, and Python tech stack. Furthermore, I have practical hands-on experience in building scalable software for various sectors such as SaaS companies, healthcare organizations, non-profits, and financial applications.
   </p>
 
 

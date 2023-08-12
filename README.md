@@ -13,7 +13,7 @@ Whether working in a team or independently, I am adept at collaborating in a hig
 As a dedicated problem solver, my priority is always to provide excellent value to clients and foster strong teamwork.
 My area of expertise lies in developing robust systems and websites using the JavaScript, PHP, and Python tech stack. Furthermore, I have practical hands-on experience in building scalable software for various sectors such as SaaS companies, healthcare organizations, non-profits, and financial applications.
   </p>
-
+  
 ##
 
 **Languages and Tools :**  

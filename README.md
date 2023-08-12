@@ -14,14 +14,6 @@ As a dedicated problem solver, my priority is always to provide excellent value 
 My area of expertise lies in developing robust systems and websites using the JavaScript, PHP, and Python tech stack. Furthermore, I have practical hands-on experience in building scalable software for various sectors such as SaaS companies, healthcare organizations, non-profits, and financial applications.
   </p>
 
-
-### 𝐖𝐡𝐚𝐭 𝐈 𝐂𝐚𝐧 𝐃𝐨
- 
-- **DApps & Online Betting Website**
-
-- **Smart Contract & Crypto**
-
-- **Full Stack web pages like eCommerce**
 ##
 
 **Languages and Tools :**  

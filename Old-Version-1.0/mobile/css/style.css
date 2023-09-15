@@ -1,0 +1,143 @@
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+
+body {color: #edf1f7; background-color: #003f6e; font-family: 'Open Sans', sans-serif; padding: 0px !important; margin: 0px !important; font-size:14px;}
+a:hover{text-decoration:none;}
+.calendar-page{background:#fff; color: #000;}
+
+/* header */
+.header{background-color:#fff; text-align:center; border-bottom:5px solid #ad9839;}
+.logo{padding:50px 0px 50px 0px;}
+.logo-img{width:75%; max-width: 463px;}
+
+/* login form */
+.form-login{ margin-bottom:150px;}
+.btn-login{background:#ad9839; color:#ffffff; }
+.btn-login:hover{ opacity:0.9;}
+
+/* footer */
+.footer{text-align:center; color:#fff; font-size:9px; line-height:40px; padding-bottom:35px;}
+.footer-bg{background-color: #003f6e;}
+
+/* main page */
+.main-wrap{padding-bottom:70px;}
+
+/* save reservation */
+.save-reservation{padding-bottom:100px; font-size:17px;}
+
+/* view equipment page */
+.view-equipment{padding-bottom:250px;}
+.view-equipment2{padding-bottom:200px;}
+.view-equipment3{padding-bottom:150px;}
+
+/* view reservation page */
+
+.view-reservation{padding-bottom:50px;}
+.view-reservation-header{background:#ad9839; padding-top:15px; border-top-left-radius:5px; border-top-right-radius:5px; -moz-border-radius-topleft:5px; -moz-border-radius-topright:5px;}
+.reservation-box{background:#fff; color:#003f6e; font-size:12px; padding:0; margin-bottom:5px;}
+.reservation-left{padding:15px 10px;}
+.reservation-right{background:#bf4c5d; width:75px; height:100%; text-align:center; font-size:40px; line-height:100px;}
+.reservation-right a{color:#fff; font-weight:bold;}
+.reservation-right a:hover{opacity:0.8;}
+.radius-bottom{border-bottom-left-radius:5px; border-bottom-right-radius:5px; -moz-border-radius-bottomleft:5px; -moz-border-radius-bottomright:5px;}
+.radius-bottom-right{border-bottom-right-radius:5px; -moz-border-radius-bottomright:5px;}
+
+/* calendar */
+.header-title{background-color:#003f6e; padding-top:9px; padding-bottom:5px;}
+.calendar-content{padding-top:20px; padding-bottom:50px;}
+
+.fc-event-skin {border-color: #003f6e; background-color: #003f6e; }
+.fc-widget-content{background:#ffa926;}
+.fc-widget-header, .fc-other-month{background:#fff;}
+.fc-header-title{margin-top:-40px; padding:0px 15px 0px 25px;}
+
+/* ----------------------------------------------- DEFAULT ----------------------------------------------- */
+
+.es-input,.es-select{background:#edf1f7; color:#878787;}
+
+.btn-danger {background-color: #bc0e37;}
+.btn-success {background-color: #1aa434;}
+
+.color{color:#ad9839;}
+.white{color:#fff;}
+.form-control,.btn{min-height:35px;}
+
+.es-input, .es-select{min-height: 40px;}
+.btn,.radio,.checkbox{min-height: 40px;}
+.btn-span{width:110px;}
+
+.clear{clear:both;}
+.clr5{clear:both; height:5px;}
+.clr10{clear:both; height:10px;}
+.clr20{clear:both; height:20px;}
+.clr30{clear:both; height:30px;}
+.clr40{clear:both; height:40px;}
+.clr50{clear:both; height:50px;}
+.clr100{clear:both; height:100px;}
+
+.subpadding5{padding-left:5px; padding-right:5px;}
+.subpadding10{padding-left:10px; padding-right:10px;}
+.subpadding20{padding-left:20px; padding-right:20px;}
+.subpadding30{padding-left:30px; padding-right:30px;}
+.subpadding40{padding-left:40px; padding-right:40px;}
+.paddingleft10{padding-left:10px;}
+
+
+.nobg{background:none;}
+.noborder{border:none;}
+.bold{font-weight:bold;}
+.std{margin:0; padding:0; padding-bottom:10px;}
+
+
+.datepicker_calendar_container{
+    width: auto;
+    margin: 0 auto;
+    /*height: 250px;*/
+}
+
+
+
+@media (max-width: 640px) {
+
+body {background-color: #003f6e;}
+
+
+}
+
+
+
+@media (max-width: 480px) {
+
+.logo{padding:30px 0px 30px 0px;}
+.subpadding20{padding-left:15px; padding-right:15px;}
+
+}
+
+@media (max-width: 320px) {
+
+body {background-color: #003f6e;}
+.logo{padding:25px 0px 25px 0px;}
+.subpadding20{padding-left:15px; padding-right:15px;}
+}
+
+
+.Zebra_DatePicker table.dp_daypicker .already_reserved{
+    background: #C40000;
+    color: #FFF;
+}
+
+.Zebra_DatePicker table.dp_daypicker .already_reserved.borderend{
+    background: #880000;
+}
+.Zebra_DatePicker table.dp_daypicker .already_reserved.inner{
+    background: #EE0000;
+}
+
+.Zebra_DatePicker table.dp_daypicker .reserved{
+    background: #12cc12;
+    color: #FFF;
+}
+
+.Zebra_DatePicker table.dp_daypicker .reserved.borderend{
+    background: #008800;
+}

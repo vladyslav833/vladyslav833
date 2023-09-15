@@ -1,0 +1,2038 @@
+[10-Dec-2021 19:40:12 Europe/London] Database error Table 'equipmen_1.timecard' doesn't exist for query 
+            SELECT
+                t.id as 'tid',
+                t.user_id,
+                u.first_name,
+                u.last_name,
+                t.job_id,
+                t.job_name,
+                t.timestamp,
+                t.time_worked,
+                t.mask_time_worked,
+                t.mask_req
+            FROM timecard as t
+            LEFT JOIN
+                users u
+            ON
+                u.id = t.user_id
+            
+            ORDER BY mask_req DESC
+            
+[28-Nov-2022 12:09:15 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[28-Nov-2022 12:09:15 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[28-Nov-2022 12:09:15 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[28-Nov-2022 12:09:15 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[28-Nov-2022 12:09:15 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[28-Nov-2022 12:09:15 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[28-Nov-2022 12:09:15 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[28-Nov-2022 12:09:15 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[28-Nov-2022 12:09:15 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[28-Nov-2022 12:09:15 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[28-Nov-2022 12:10:50 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[28-Nov-2022 12:10:50 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[28-Nov-2022 12:10:50 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[28-Nov-2022 12:10:50 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[28-Nov-2022 12:10:50 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[28-Nov-2022 12:10:50 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[28-Nov-2022 12:10:50 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[28-Nov-2022 12:10:50 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[28-Nov-2022 12:10:50 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[28-Nov-2022 12:10:50 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[28-Nov-2022 12:12:25 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[28-Nov-2022 12:12:25 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[28-Nov-2022 12:12:25 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[28-Nov-2022 12:12:25 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[28-Nov-2022 12:12:25 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[28-Nov-2022 12:12:25 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[28-Nov-2022 12:12:25 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[28-Nov-2022 12:12:25 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[28-Nov-2022 12:12:25 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[28-Nov-2022 12:12:25 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[28-Nov-2022 12:28:40 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[28-Nov-2022 12:28:40 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[28-Nov-2022 12:28:40 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[28-Nov-2022 12:28:40 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[28-Nov-2022 12:28:40 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[28-Nov-2022 12:28:40 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[28-Nov-2022 12:28:40 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[28-Nov-2022 12:28:40 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[28-Nov-2022 12:28:40 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[28-Nov-2022 12:28:40 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[28-Nov-2022 12:34:06 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[28-Nov-2022 12:34:06 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[28-Nov-2022 12:34:06 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[28-Nov-2022 12:34:06 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[28-Nov-2022 12:34:06 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[28-Nov-2022 12:34:06 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[28-Nov-2022 12:34:06 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[28-Nov-2022 12:34:06 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[28-Nov-2022 12:34:06 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[28-Nov-2022 12:34:06 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[28-Nov-2022 13:05:14 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[28-Nov-2022 13:05:14 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[28-Nov-2022 13:20:04 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[28-Nov-2022 13:20:04 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[28-Nov-2022 13:31:48 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[28-Nov-2022 13:31:48 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[28-Nov-2022 13:33:18 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[28-Nov-2022 13:33:18 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[28-Nov-2022 13:33:40 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[28-Nov-2022 13:33:40 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[28-Nov-2022 15:12:51 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[28-Nov-2022 15:12:51 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[28-Nov-2022 15:12:51 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[28-Nov-2022 15:12:51 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[05-Dec-2022 12:31:58 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[05-Dec-2022 12:31:58 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[05-Dec-2022 12:35:32 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[05-Dec-2022 12:35:32 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[05-Dec-2022 12:38:14 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[05-Dec-2022 12:38:14 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[05-Dec-2022 14:12:32 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[05-Dec-2022 14:12:32 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[05-Dec-2022 14:13:53 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[05-Dec-2022 14:13:53 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[05-Dec-2022 14:16:48 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[05-Dec-2022 14:16:48 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[05-Dec-2022 14:27:07 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[05-Dec-2022 14:27:07 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[05-Dec-2022 14:28:29 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[05-Dec-2022 14:28:29 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[05-Dec-2022 14:30:13 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[05-Dec-2022 14:30:13 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[03-Jan-2023 12:28:17 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[03-Jan-2023 12:28:17 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[03-Jan-2023 12:28:17 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[03-Jan-2023 12:28:17 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[03-Jan-2023 12:30:09 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[03-Jan-2023 12:30:09 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[03-Jan-2023 12:30:09 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[03-Jan-2023 12:30:09 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[03-Jan-2023 12:35:37 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[03-Jan-2023 12:35:37 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[03-Jan-2023 12:35:37 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[03-Jan-2023 12:35:37 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[03-Jan-2023 12:43:20 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[03-Jan-2023 12:43:20 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[03-Jan-2023 12:43:20 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[03-Jan-2023 12:43:20 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[03-Jan-2023 12:49:56 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[03-Jan-2023 12:49:56 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[03-Jan-2023 12:49:56 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[03-Jan-2023 12:49:56 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[03-Jan-2023 12:51:37 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[03-Jan-2023 12:51:37 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[03-Jan-2023 12:51:37 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[03-Jan-2023 12:51:37 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[03-Jan-2023 12:55:24 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[03-Jan-2023 12:55:24 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[03-Jan-2023 12:55:24 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[03-Jan-2023 12:55:24 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[03-Jan-2023 12:55:36 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[03-Jan-2023 12:55:36 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[03-Jan-2023 12:55:36 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[03-Jan-2023 12:55:36 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[06-Jan-2023 20:39:10 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:39:11 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:39:12 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:39:12 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:39:17 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:39:33 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:39:37 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:40:00 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:40:01 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:40:01 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:40:01 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:40:02 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:40:02 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:40:24 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:40:25 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:40:25 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:40:25 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:40:26 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:40:26 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:40:26 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:40:27 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:40:27 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:40:27 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:40:27 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:40:28 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:40:57 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:40:58 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:40:58 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:40:58 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:40:59 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:40:59 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:40:59 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:40:59 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:40:59 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:40:59 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:41:40 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:41:42 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:41:42 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:41:43 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:41:43 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:41:43 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:41:43 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:41:44 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:41:44 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:41:44 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:41:45 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:41:45 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:41:55 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[06-Jan-2023 20:42:08 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:55:45 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:55:55 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:56:13 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:56:15 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:56:15 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:56:19 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:56:19 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:56:36 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:56:45 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:56:47 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:56:47 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:56:52 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:56:54 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:56:54 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:57:35 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:57:37 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:57:37 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:57:39 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:57:40 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:57:43 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:57:56 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:57:58 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:57:58 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:58:00 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:58:01 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:58:06 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:58:51 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:58:53 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:58:59 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:01 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:01 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:01 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:02 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:02 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:02 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:03 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:03 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:03 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:03 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:04 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:04 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:04 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:04 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:05 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:05 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:05 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:05 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:06 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:06 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:06 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:07 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:07 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:07 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:07 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:08 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:08 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:08 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:08 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:09 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:09 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:09 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:09 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:09 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:10 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:10 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:10 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:10 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:11 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:11 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:11 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:12 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:12 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 11:59:12 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:00 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:06 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:28 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:33 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:37 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:37 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:37 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:38 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:38 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:38 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:39 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:40 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:40 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:40 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:41 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:41 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:41 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:42 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:42 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:42 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:42 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:42 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:43 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:43 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:43 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:43 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:44 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:44 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:44 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:44 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:45 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:45 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:45 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:45 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:46 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:46 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:46 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:46 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:47 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:47 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:47 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:47 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:48 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:48 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:48 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:48 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:49 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:49 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:49 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:49 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:00:50 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:01:31 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:01:42 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:02:10 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:02:34 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:02:51 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:03:40 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:03:40 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:03:42 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:03:43 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:03:44 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:03:44 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:03:44 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:03:44 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:03:45 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:03:45 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[09-Jan-2023 12:03:45 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 14:00:31 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 14:01:04 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 14:01:25 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 14:02:42 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 14:02:50 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 14:02:57 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 14:02:58 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 14:02:59 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 14:02:59 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 14:02:59 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 14:02:59 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 14:03:00 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 14:03:00 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 14:03:00 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 14:03:01 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 14:03:01 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 14:03:01 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 14:03:02 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 14:03:02 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 14:03:02 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 14:03:02 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 14:03:03 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 14:03:03 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 14:03:03 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 14:03:03 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 14:03:03 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 14:03:04 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 14:03:04 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 14:03:04 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 14:03:05 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 14:03:05 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 14:03:20 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 15:12:20 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 15:12:21 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 15:12:22 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 15:12:22 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 15:12:23 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 15:12:23 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 15:12:23 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 15:12:23 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 15:12:24 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 15:12:24 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 15:12:24 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 15:12:24 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 15:12:25 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 15:12:25 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 15:12:25 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[16-Jan-2023 15:57:54 Europe/London] PHP Fatal error:  Uncaught Api2PdfException: Insufficient funds. in /home/equipmen/public_html/includes/Api2Pdf.php:415
+Stack trace:
+#0 /home/equipmen/public_html/includes/Api2Pdf.php(347): Api2PdfResult::createFromResponse('{"Error":"Insuf...')
+#1 /home/equipmen/public_html/includes/Api2Pdf.php(68): Api2Pdf->makeRequest('/chrome/pdf/htm...', Array)
+#2 /home/equipmen/public_html/admin-backend.php(168): Api2Pdf->chromeHtmlToPdf('<!DOCTYPE html>...')
+#3 /home/equipmen/public_html/index.php(6): require('/home/equipmen/...')
+#4 {main}
+  thrown in /home/equipmen/public_html/includes/Api2Pdf.php on line 415
+[13-Mar-2023 11:48:58 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[13-Mar-2023 11:48:58 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[13-Mar-2023 11:55:06 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[13-Mar-2023 11:55:06 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[13-Mar-2023 11:56:58 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[13-Mar-2023 11:56:58 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448
+[13-Mar-2023 12:01:36 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 446
+[13-Mar-2023 12:01:36 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/equipmen/public_html/admin-backend.php on line 448

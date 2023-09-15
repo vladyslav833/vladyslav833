@@ -1,0 +1,278 @@
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+
+body {color: #343333; background: #f8f8f8; font-family: 'Open Sans', sans-serif; padding: 0px !important; margin: 0px !important; font-size:14px;}
+
+
+
+/*login page*/
+
+.login-body{background:url(../img/login-bg.jpg) top center repeat;}
+.form-login { color: #fff; max-width: 400px; margin: 160px auto 0; background: #003f6e; -moz-box-shadow: 0 10px 15px -5px #adadad; -webkit-box-shadow: 0 10px 15px -5px adadad; box-shadow: 0 10px 15px -5px #adadad; border:1px solid #bbbbbb;}
+.login-header{ padding:15px 0px; background:#e7e7e7 url(../img/lock-icon.png) 350px 20px no-repeat; color:#fff; min-height:40px; vertical-align:central; font-size:16px; font-weight:bold; line-height:1.5em;}
+.form-control{background:#eeeeee; min-height:40px; color:#7e7e7e;}
+
+.login-wrap {padding: 20px;}
+.login-logo{padding:5px 20px; width: 200px;}
+.form-login a{color:#ffffff;}
+.form-login a:hover{text-decoration:none;}
+        .btn-login{background:#ad9839; color:#ffffff; font-size:22px;}
+.btn-login:hover{ opacity:0.9;}
+
+/* header */
+
+header.header {height: 85px; padding: 0 25px; position: fixed;left: 0;right: 0;z-index: 1002;background:#ffffff;color:#003f6e;}
+header.header a{color:#003f6e;}
+.logo{padding-top:5px; padding-right:20px; width: 200px;}
+.header-info{margin-top:-30px; font-size:16px;}
+.header-icon{padding:0px 0px 0px 10px; margin-top:-5px;}
+
+/*sidebar navigation*/
+
+#sidebar { width: 210px;height: 100%;position: fixed; background: #003f6e;}
+#sidebar ul li {position: relative;}
+
+ul.sidebar-menu{margin: -2px 0 0; padding: 0; margin-top: 85px;}
+ul.sidebar-menu li{}
+ul.sidebar-menu li a span{display: inline-block;}
+
+ul.sidebar-menu li a,
+ul.sidebar-menu li span
+{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 18px 0 18px 60px;
+    font-size: 14px;
+    outline: none;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+ul.sidebar-menu li a.active, ul.sidebar-menu li a:hover, ul.sidebar-menu li a:focus, ul.sidebar-menu li a.selected {
+    color: #917e29;
+    display: block;
+	border-left:5px solid #917e29;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+
+
+ul.sidebar-menu li a i {font-size: 14px; padding-right: 6px;}
+ul.sidebar-menu li a:hover i, ul.sidebar-menu li a:focus i {color: #917e29;}
+ul.sidebar-menu li a.active i {color: #917e29;}
+
+
+.dashboard-menu a{background:url(../img/dashboard-icon.png) 15px 15px no-repeat;}
+.dashboard-menu span{background:url(../img/dashboard-icon.png) 15px 15px no-repeat;}
+.dashboard-menu a:hover,.dashboard-menu a.active,.dashboard-menu a.focus,.dashboard-menu a.selected{background:#fff url(../img/dashboard-hicon.png) 15px 15px no-repeat;}
+
+.categories-menu a{background:url(../img/categories-icon.png) 15px 15px no-repeat;}
+.categories-menu a:hover,.categories-menu a.active,.categories-menu a.focus,.categories-menu a.selected{background:#fff url(../img/categories-hicon.png) 15px 15px no-repeat;}
+
+.equipment-menu a{background:url(../img/equipment-icon.png) 15px 15px no-repeat;}
+.equipment-menu a:hover,.equipment-menu a.active,.equipment-menu a.focus,.equipment-menu a.selected{background:#fff url(../img/equipment-hicon.png) 15px 15px no-repeat;}
+
+.calendar-menu a{background:url(../img/calendar-icon.png) 15px 15px no-repeat;}
+.calendar-menu a:hover,.calendar-menu a.active,.calendar-menu a.focus,.calendar-menu a.selected{background:#fff url(../img/calendar-hicon.png) 15px 15px no-repeat;}
+
+.jobs-menu a{background:url(../img/jobs-icon.png) 15px 15px no-repeat;}
+.jobs-menu a:hover,.jobs-menu a.active,.jobs-menu a.focus,.jobs-menu a.selected{background:#fff url(../img/jobs-hicon.png) 15px 15px no-repeat;}
+
+.users-menu a{background:url(../img/users-icon.png) 15px 15px no-repeat;}
+.users-menu a:hover,.users-menu a.active,.users-menu a.focus,.users-menu a.selected{background:#fff url(../img/users-hicon.png) 15px 15px no-repeat;}
+
+.reservation-menu a{background:url(../img/reservation-icon.png) 15px 15px no-repeat;}
+.reservation-menu a:hover,.reservation-menu a.active,.reservation-menu a.focus,.reservation-menu a.selected{background:#fff url(../img/reservation-hicon.png) 15px 15px no-repeat;}
+
+/* ----------------------------------------------- Main Content ----------------------------------------------- */
+#main-content {margin-left: 210px;}
+.wrapper { display: inline-block; margin-top: 85px; width: 100%;}
+
+/* ----------------------------------------------- Breadcrumb ----------------------------------------------- */
+.es-breadcrumb{width:100%; background:#917e29; color:#fff; border:none; padding: 3px 0 2px 20px; font-size:16px; line-height:50px; min-height:56px;}
+.es-breadcrumb a{color:#fff;}
+.es-wrapper{padding:15px;}
+
+/* ----------------------------------------------- Panel ----------------------------------------------- */
+.panel{border:1px solid #d6d6d6; background:#fff;}
+.panel-heading{color:#fff; background:#003f6e;   padding: 15px 15px;}
+
+/* ----------------------------------------------- Category Page ----------------------------------------------- */
+.es-th-delete{width:15%;}
+.es-th-category{width:85%;}
+#example_paginate{padding:30px 0px 20px 0px;;}
+table.display thead tr{background:#003f6e; color:#fff;}
+table.display thead th{ line-height:20px; padding-bottom: 15px; padding-top: 15px; }
+table.display thead .es-start{border-top-left-radius:5px; -moz-border-radius-topleft:5px;}
+table.display thead .es-end{border-top-right-radius:5px; -moz-border-radius-topright:5px;}
+table.display thead .es-end.calendar-end {  width: 235px !important; }
+
+.es-th-delete{width:10%;}
+.es-th-equipment{width:40%;}
+.es-th-eqcategory{width:40%;}
+.es-th-availability{width:10%;}
+
+/* ----------------------------------------------- DEFAULT ----------------------------------------------- */
+
+/*.es-input{background:#edf1f7; color:#44454c; border-color:#bfc9d8; padding-top:13px; padding-bottom:13px; }*/
+.es-input{background:#edf1f7; color:#44454c; border-color:#bfc9d8; padding-top:11px; padding-bottom:11px; }
+.es-select{background:#edf1f7; color:#44454c; border-color:#bfc9d8;}
+.es-checkbox{padding-top:10px;}
+label{font-weight:normal;}
+
+
+.btn-theme{background:#ad9839; color:#ffffff; border-color: #806d19;}
+.btn-theme:hover,
+.btn-theme:focus,
+.btn-theme:active,
+.btn-theme.active,
+.open .dropdown-toggle.btn-theme {
+  color: #ffffff;
+  background-color: #cab142;
+  border-color: #806d19;
+}
+
+.btn-primary{background:#003f6e;}
+
+
+.modal-body{
+    padding: 10px;
+    padding-bottom: 0;
+}
+.bootstrap-dialog-body{
+    padding: 10px 25px;
+    text-align: center;
+    border: 1px solid #000;
+    border-bottom: none;
+}
+
+.modal-content{
+    margin: 20px;
+    border-radius: 0;
+}
+
+.bootstrap-dialog-message{
+    color: #003F6E;
+    font-size: 16px;
+}
+
+.modal-footer{
+    padding: 10px;
+    padding-top: 0 !important;
+    margin-top: 0px;
+}
+
+.bootstrap-dialog-footer{
+    padding: 10px 25px;
+    text-align: center;
+    border: 1px solid #000;
+    border-top: none;
+}
+
+
+.btn-dialog-yellow,
+.btn-dialog-blue{
+    color: #ffffff;
+    font-size: 14px;
+    height: auto !important;
+    line-height: 14px;
+    padding: 6px 10px 8px;
+    border-radius: 0px;
+}
+
+.btn-dialog-blue{
+    background:#003f6e;
+    margin-right: 50px;
+}
+.btn-dialog-blue:hover{
+    color: #ddddff;
+}
+
+.btn-dialog-yellow{
+    background:#ad9839;
+    margin-left: 50px;
+}
+
+.clear{clear:both;}
+.clr5{clear:both; height:5px;}
+.clr10{clear:both; height:10px;}
+.clr20{clear:both; height:20px;}
+.clr30{clear:both; height:30px;}
+.clr40{clear:both; height:40px;}
+.clr50{clear:both; height:50px;}
+.clr100{clear:both; height:100px;}
+
+.subpadding5{padding-left:5px; padding-right:5px;}
+.subpadding10{padding-left:10px; padding-right:10px;}
+.subpadding20{padding-left:20px; padding-right:20px;}
+.subpadding30{padding-left:30px; padding-right:30px;}
+.subpadding40{padding-left:40px; padding-right:40px;}
+.paddingleft10{padding-left:10px;}
+
+
+.nobg{background:none;}
+.noborder{border:none;}
+.bold{font-weight:bold;}
+
+.dataTables_length{
+    float: right;
+    width: auto;
+}
+.dataTables_length select{
+    display: inline-block;
+    float: none;
+    width: auto;
+}
+
+#category_filter{
+    position: relative;
+    z-index: 1;
+    float: left;
+    margin-bottom: -35px;
+}
+#category_filter select{
+    float: left;
+    width: auto;
+    margin-right: 10px;
+    margin-top: -2px;
+}
+
+.datepicker_calendar_container .Zebra_DatePicker {
+    width: 400px;
+    font-size: 20px;
+    z-index: 1;
+    position: relative;
+}
+
+.Zebra_DatePicker table.dp_daypicker .already_reserved{
+    background: #C40000;
+    color: #FFF;
+}
+
+.Zebra_DatePicker table.dp_daypicker .already_reserved.borderend{
+    background: #880000;
+}
+.Zebra_DatePicker table.dp_daypicker .already_reserved.inner{
+    background: #EE0000;
+}
+
+.Zebra_DatePicker table.dp_daypicker .reserved{
+    background: #12cc12;
+    color: #FFF;
+}
+
+.Zebra_DatePicker table.dp_daypicker .reserved.borderend{
+    background: #008800;
+}
+
+.calendar-line-4{
+    max-width: 550px;
+}

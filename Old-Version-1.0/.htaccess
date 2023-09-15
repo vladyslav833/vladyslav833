@@ -1,0 +1,17 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* index.php [L]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+<IfModule fcgid_module>
+    <IfModule mime_module>
+        AddHandler fcgid-script .php .php7 .phtml
+        FcgidWrapper /usr/local/cpanel/cgi-sys/ea-php72 .php
+        FcgidWrapper /usr/local/cpanel/cgi-sys/ea-php72 .php7
+        FcgidWrapper /usr/local/cpanel/cgi-sys/ea-php72 .phtml
+    </IfModule>
+</IfModule>
+
+# php -- END cPanel-generated handler, do not edit

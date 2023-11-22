@@ -8,7 +8,7 @@
             {*<a href="{$adminUrl}" {if 'dashboard' == $page} class="selected"{/if}>Dashboard</a>*}
             <span>Dashboard</span>
         </li>
-        <li>
+    	{*<li>
             <span class="calendar-menu {if 'calendar' == $page || 'prj-calendar' == $page || 'wkr-calendar' == $page}selected{/if}">Calendar
                 <i class="{if 'calendar' == $page || 'prj-calendar' == $page || 'wkr-calendar' == $page}icon-caret-up{else}icon-caret-down{/if} download-btn"></i>
             </span>
@@ -17,7 +17,7 @@
                 <a href="{$adminUrl}prj-calendar" class="prj-calendar {if 'prj-calendar' == $page}selected{/if}"">Project Calendar</a>
                 <a href="{$adminUrl}wkr-calendar" class="wkr-calendar {if 'wkr-calendar' == $page}selected{/if}"">Worker Calendar</a>
             </div>
-        </li>
+        </li>*}
         <li>
             <span class="equipment-menu {if 'equipment' == $page || 'categories' == $page || 'reserve-equipment' == $page}selected{/if}">Equipment
                 <i class="{if 'equipment' == $page || 'categories' == $page || 'reserve-equipment' == $page}icon-caret-up{else}icon-caret-down{/if} download-btn"></i>

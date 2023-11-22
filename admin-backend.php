@@ -243,7 +243,7 @@ switch ($page) {
         }
 
 
-        redirect('admin/equipment');
+        redirect('admin/timecard');
 
 
     }

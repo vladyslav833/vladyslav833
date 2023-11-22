@@ -26,7 +26,7 @@
         <link href="{$homeUrl}css/qtip/jquery.qtip.css" rel="stylesheet">
         <link href="{$homeUrl}css/style.css" rel="stylesheet">
 
-        <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js'></script>
+        <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js'></script>
         <script type='text/javascript' src='{$homeUrl}js/bootstrap.js'></script>
         <script type="text/javascript" src="{$homeUrl}assets/advanced-datatable/media/js/jquery.dataTables.js"></script>
         <script type="text/javascript" src="{$homeUrl}assets/bootstrap-dialog/js/bootstrap-dialog.js"></script>

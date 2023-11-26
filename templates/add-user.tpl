@@ -53,6 +53,13 @@
                             <label><input type="checkbox" value="1" name="is_proj_mgr" {if 'proj_mgr' == $role} checked{/if}> Project Manager</label>
                         </div>
                     </div>
+                    <div class="col-sm-12 es-checkbox">
+                        <label>Status</label>
+                        <div>
+                            <label class="mr-10"><input type="radio" value="1" name="status" {if 1 == $status} checked{/if}> Active</label>
+                            <label><input type="radio" value="0" name="status" {if 0 == $status} checked{/if}> Inactive</label>
+                        </div>
+                    </div>
                     <div id="password_line">
                         <div class="clr30"></div>
                         <div class="col-sm-6"><input type="text" class="form-control es-input"

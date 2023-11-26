@@ -836,7 +836,7 @@ switch ($page) {
 
         );
 
-        $mgr_list = $db->get_results("SELECT id, first_name, last_name FROM users WHERE role='user' ORDER BY username ASC", ARRAY_A);
+        $mgr_list = $db->get_results("SELECT id, first_name, last_name FROM users WHERE role='user' AND 1='status' ORDER BY username ASC", ARRAY_A);
 
         $tpl->assign('users', $mgr_list);
 
@@ -1645,6 +1645,14 @@ switch ($page) {
 
             $filter_sql = " WHERE role = '$userrole'";
 
+            if (isset($_POST['status'])) {
+                $status = $_POST['status'] == 'active';
+                $filter_sql .= " AND active = '$status'";
+            }
+
+        } else if (isset($_POST['status'])) {
+            $status = $_POST['status'] == 'active';
+            $filter_sql = " WHERE active = '$status'";
         }
 
         $sql = "
@@ -1659,7 +1667,9 @@ switch ($page) {
 
                     username,
 
-                    role
+                    role,
+
+                    active
 
                 FROM
 
@@ -1707,7 +1717,6 @@ switch ($page) {
     case 'edit-user':
     {
 
-
         $user_id = !empty($_GET['id']) ? addslashes(trim($_GET['id'])) : 0;
 
 
@@ -1739,6 +1748,10 @@ switch ($page) {
 
                 $user_data['password2'] = $user_data['password'];
 
+                $user_status = $db->get_results("SELECT active FROM users WHERE id = " . $user_data['id'], ARRAY_A);
+                
+                $user_data['status'] = $user_status[0]['active'];
+
                 $tpl->assign($user_data);
 
             }
@@ -1765,6 +1778,12 @@ switch ($page) {
             else
                 $urole = 'user';
 
+            if (isset($_POST['status'])) {
+                $active = $_POST['status'];
+            } else {
+                $active = 0;
+            }
+                
 
             $pass1 = !empty($_POST['password1']) ? $_POST['password1'] : '';
 
@@ -1849,6 +1868,8 @@ switch ($page) {
 
                             'password' => $pass1,
 
+                            'active' => $active,
+
                         ),
 
                         array(
@@ -1897,6 +1918,8 @@ switch ($page) {
 
                             'password' => $pass1,
 
+                            'active' => $active,
+
                         )
 
                     );
@@ -1938,7 +1961,7 @@ switch ($page) {
             $pageName => '',
         );
 
-        $mgr_list = $db->get_results("SELECT id, first_name, last_name FROM users WHERE role='user' ORDER BY username ASC", ARRAY_A);
+        $mgr_list = $db->get_results("SELECT id, first_name, last_name FROM users WHERE role='user' AND 1='status' ORDER BY username ASC", ARRAY_A);
         $tpl->assign('users', $mgr_list);
 
 

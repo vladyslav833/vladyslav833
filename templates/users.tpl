@@ -59,6 +59,11 @@ $(document).ready(function(){
                                 </td>
                                 <td class="subpadding10"><button type="submit" class="btn btn-theme" style="display: inline-block">Filter</button></td>
                             </tr>
+                            <tr>
+                                <td><label style="display: flex; justify-content: center;">Status</label></td>
+                                <td class="subpadding10"><label><input type="radio" name="status" value="active" style="margin-right: 5px;">Active</label></td>
+								<td class="subpadding10"><label><input type="radio" name="status" value="inactive" style="margin-right: 5px;">Inactive</label></td>
+                            </tr>
                         </table>
                     </form>
                 </div>
@@ -70,6 +75,7 @@ $(document).ready(function(){
                         <th class="es-th es-th-user">Last Name</th>
                         <th class="es-th es-th-user">User Name</th>
                         <th class="es-th es-th-user">Role</th>
+                        <th class="es-th es-th-user">Status</th>
                         {if "user" neq $filters.userrole}
                         <th class="es-th es-th-user text-center">Add Project</th>
                         {/if}
@@ -91,6 +97,7 @@ $(document).ready(function(){
                         <td>{$user.first_name}</td>
                         <td>{$user.last_name}</td>
                         <td>{$user.username}</td>
+                        
                         {if $user.role == "admin"}
                             <td style="text-transform: capitalize;">Admin, Proj.Mgr</td>
                         {elseif $user.role == "proj_mgr"}
@@ -98,6 +105,13 @@ $(document).ready(function(){
                         {else}
                             <td style="text-transform: capitalize;">{$user.role}</td>
                         {/if}
+
+                        {if $user.active == 1}
+                            <td style="text-transform: capitalize;">Active</td>
+                        {else}
+                            <td style="text-transform: capitalize;">Inactive</td>
+                        {/if}
+                        
                         {if "user" neq $filters.userrole}
                         <td class="text-center">
                             {if $user.role == "admin" || $user.role == "proj_mgr" }

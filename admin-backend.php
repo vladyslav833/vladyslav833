@@ -553,6 +553,10 @@ switch ($page) {
 
             $filter_sql = " WHERE status = '$status'";
 
+        } else {
+            $filters['status'] = 1;
+            
+            $filter_sql = " WHERE status = 1";
         }
 
         $job_list = $db->get_results("SELECT id, name, job_num, status FROM job $filter_sql ORDER BY name ASC", ARRAY_A);
@@ -805,8 +809,7 @@ switch ($page) {
 
         $id = !empty($_GET['id']) ? addslashes(trim($_GET['id'])) : 0;
 
-        if ($id) {
-
+        if ($id) {  
             $tasks_data = $db->get_row("SELECT id , job_id, user_id, start_date, end_date, hide_task, alert, alert_text, description FROM tasks WHERE id='$id'", ARRAY_A);
 
             if (!$tasks_data) {
@@ -836,11 +839,22 @@ switch ($page) {
 
         );
 
-        $mgr_list = $db->get_results("SELECT id, first_name, last_name FROM users WHERE role='user' AND 1='status' ORDER BY username ASC", ARRAY_A);
+        $mgr_list = $db->get_results("SELECT id, first_name, last_name FROM users WHERE role='user' AND active=1 ORDER BY username ASC", ARRAY_A);
 
         $tpl->assign('users', $mgr_list);
 
         $job_list = $db->get_results("SELECT id, name FROM job ORDER BY name ASC", ARRAY_A);
+        $current_date = date("Y-m-d");
+
+        $query = "
+            SELECT job.id, job.name 
+            FROM job 
+            INNER JOIN tasks ON job.id = tasks.job_id 
+            WHERE tasks.end_date >= '$current_date' 
+            ORDER BY job.name ASC
+        ";
+
+        $job_list = $db->get_results($query, ARRAY_A);
 
         $tpl->assign('jobs', $job_list);
 
@@ -1961,7 +1975,7 @@ switch ($page) {
             $pageName => '',
         );
 
-        $mgr_list = $db->get_results("SELECT id, first_name, last_name FROM users WHERE role='user' AND 1='status' ORDER BY username ASC", ARRAY_A);
+        $mgr_list = $db->get_results("SELECT id, first_name, last_name FROM users WHERE role='user' AND active=1 ORDER BY username ASC", ARRAY_A);
         $tpl->assign('users', $mgr_list);
 
 

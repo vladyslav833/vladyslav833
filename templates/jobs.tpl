@@ -47,7 +47,7 @@ $(document).ready(function(){
         <div class="subpadding20">
             <div class="clr20"></div>
                 <div id="user_role_filter">
-                    <form method="post" action="{$adminUrl}jobs">
+                    <form method="post" action="{$adminUrl}jobs" style="margin-bottom: -50px;">
                         <table>
                             <tr>
                                 <td>

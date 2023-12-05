@@ -850,7 +850,7 @@ switch ($page) {
             SELECT job.id, job.name 
             FROM job 
             INNER JOIN tasks ON job.id = tasks.job_id 
-            WHERE tasks.end_date >= '$current_date' 
+            WHERE status = 1
             ORDER BY job.name ASC
         ";
 

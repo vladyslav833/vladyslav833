@@ -8,17 +8,23 @@ $(document).ready(function(){
     {/literal}{if $tasks}{literal}
 
         $('#example').dataTable( {
-            "bLengthChange": false,
+            "bLengthChange": true, // Enable "Display X projects per page" option
+            "iDisplayLength": 10, // Set the default value to 10 projects per page
+            "aLengthMenu": [[10, 25, 50], [10, 25, 50]], // Array of options for the dropdown menu
             "bFilter": false,
             "bInfo": false,
+            "aaSorting": [[2, "asc"]],
             "aoColumns": [
-                null,
-                null,
-                null,
-                null,
+                { "bSortable": false },
+                { "bSortable": true },
+                { "bSortable": true },
+                { "bSortable": true },
                 { "bSortable": false }
             ],
-            "sPaginationType": "full_numbers"
+            "sPaginationType": "full_numbers",
+            "oLanguage": {
+                "sLengthMenu": "Display _MENU_ projects per page."
+            }
         } );
     {/literal}{/if}{literal}
 

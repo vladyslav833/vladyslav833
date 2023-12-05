@@ -33,8 +33,7 @@ $(document).ready(function(){
             null,
             { "bSortable": false }
         ],
-        "sPaginationType": "full_numbers",
-        
+        "sPaginationType": "full_numbers"
     } );
 {/literal}{/if}{literal}
 
